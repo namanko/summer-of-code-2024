@@ -27,6 +27,7 @@ I used FastApi to make my API using the saved model. It does a POST request on t
 6. type_TRANSFER : int
 7. Origdiff : float
 8. Destdiff : float
+
 and returns {'isFraud' : 0 or 1}
 
 
