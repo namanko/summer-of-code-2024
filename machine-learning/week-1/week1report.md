@@ -19,14 +19,14 @@ This is my first time using this and I found it quite useful. It generated a sim
 
 # API
 I used FastApi to make my API using the saved model. It does a POST request on the predict endpoint with the headers 
-    {amount : float
-    type_CASH_IN : int
-    type_CASH_OUT : int
-    type_DEBIT : int
-    type_PAYMENT : int
-    type_TRANSFER : int
-    Origdiff : float
-    Destdiff : float}
+    - amount : float
+    - type_CASH_IN : int
+    - type_CASH_OUT : int
+    - type_DEBIT : int
+    - type_PAYMENT : int
+    - type_TRANSFER : int
+    - Origdiff : float
+    - Destdiff : float
 and returns {'isFraud' : 0 or 1}
 
 
